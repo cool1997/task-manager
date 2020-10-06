@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/task-manager/static/css/main.685b1cca.chunk.css",
+    "main.js": "/task-manager/static/js/main.237b5b03.chunk.js",
+    "main.js.map": "/task-manager/static/js/main.237b5b03.chunk.js.map",
+    "runtime-main.js": "/task-manager/static/js/runtime-main.2380efdb.js",
+    "runtime-main.js.map": "/task-manager/static/js/runtime-main.2380efdb.js.map",
+    "static/js/2.714f8a5f.chunk.js": "/task-manager/static/js/2.714f8a5f.chunk.js",
+    "static/js/2.714f8a5f.chunk.js.map": "/task-manager/static/js/2.714f8a5f.chunk.js.map",
+    "index.html": "/task-manager/index.html",
+    "precache-manifest.a13ecf93c23313717eab4f7bd323343e.js": "/task-manager/precache-manifest.a13ecf93c23313717eab4f7bd323343e.js",
+    "service-worker.js": "/task-manager/service-worker.js",
+    "static/css/main.685b1cca.chunk.css.map": "/task-manager/static/css/main.685b1cca.chunk.css.map",
+    "static/js/2.714f8a5f.chunk.js.LICENSE.txt": "/task-manager/static/js/2.714f8a5f.chunk.js.LICENSE.txt",
+    "static/media/preloader.svg": "/task-manager/static/media/preloader.88596d71.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2380efdb.js",
+    "static/js/2.714f8a5f.chunk.js",
+    "static/css/main.685b1cca.chunk.css",
+    "static/js/main.237b5b03.chunk.js"
+  ]
+}
