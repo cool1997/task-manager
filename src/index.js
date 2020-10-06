@@ -7,7 +7,7 @@ import {BrowserRouter} from 'react-router-dom'
 import store from './App/store'
 
 import './index.scss'
-import './assets/css/vars.css'
+// import './assets/css/vars.css'
 import './assets/css/reset.css'
 
 
