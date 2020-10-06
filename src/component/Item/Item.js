@@ -65,19 +65,23 @@ const Item = ({ match, history, ...props }) => {
       <h2 className={`${styles.title}`}>{`Задача №${id}`}</h2>
 
       <button 
-          className={`${styles.btn} ${styles.btnDelete}`}
+          className={`${styles.btnDelete}`}
           type={`button`}
           onClick={Handle.deleteTask}>
           удалить
         </button>
-      <label htmlFor={`newTask`}>Краткое описание</label>
+      <label 
+        className={`${styles.label}`}
+        htmlFor={`newTask`}>Краткое описание</label>
       <input
         className={`${styles.field}`}
         id={`newTask`}
         onChange={(evt) => Handle.onChange(evt)}
         value={activeTaskTitle}
-        type={`text`}/>
-      <button className={`${styles.btn}`}>
+        type={`text`}
+        autoComplete={`off`}/>
+      <button 
+        className={`${styles.btn} ${isChangeValue ? styles.btnSave : ``}`}>
         {
           isChangeValue
             ? `Сохранить`

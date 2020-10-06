@@ -24,6 +24,13 @@
         border: 1px solid #39B54A;
         border-radius: 4px;
         padding: 9px 40px;
+        
+        &:hover,
+        &:focus {
+            background-color: #39B54A;
+            color: #ffffff;
+            outline: none;
+        }
     }
 
     & .list {

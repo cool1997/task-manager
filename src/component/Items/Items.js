@@ -14,8 +14,7 @@ const Items = ({ ...props }) => {
 
 	const { tasks } = useSelector((state) => state.tasks)
 
-	// const [showAddNewTask, setShowAddNewTask] = useState(false)
-	const [showAddNewTask, setShowAddNewTask] = useState(true)
+	const [showAddNewTask, setShowAddNewTask] = useState(false)
 
 
 	useEffect(() => {
