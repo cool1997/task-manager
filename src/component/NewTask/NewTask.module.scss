@@ -1,0 +1,47 @@
+.NewTask {
+    display: grid;
+    grid-template: 
+    'label btnClose' 14px
+    'field field' 
+    'error error' 0
+    '... btnAdd'
+    /1fr auto;
+
+    grid-gap: 10px;
+
+    width: 462px;
+    height: 182px;
+    padding: 30px;
+
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+
+    & .btnClose {
+        grid-area: btnClose;
+
+        background: transparent;
+        border: none;
+        padding: 0;
+
+        
+    }
+
+    & .label {
+        grid-area: label;
+    }
+
+    & .field {
+        grid-area: field;
+
+        background: #F2F2F2;
+        border-radius: 4px;
+    }
+
+    & .error {
+        grid-area: error;
+    }
+
+    & .btnAdd {
+        grid-area: btnAdd;
+    }
+}
